@@ -5,7 +5,7 @@ end
 
 hash2 = {:Steve => "brother"}
 
-p read_from_hash(hash2, "Steve")
+p read_from_hash(hash2, :Steve)
 p read_from_hash(hash2, :Phil)
 
 p hash2[:Steve]
